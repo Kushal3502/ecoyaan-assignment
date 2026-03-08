@@ -12,7 +12,7 @@ function CheckoutButton({ cart }: { cart: CartData }) {
 
   function handleClick() {
     setCart(cart);
-    router.push("/shipping");
+    router.push("/checkout");
   }
 
   return (

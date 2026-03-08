@@ -1,8 +1,8 @@
 export interface Address {
-  name: string;
+  fullName: string;
   email: string;
   phone: string;
-  pin: string;
+  pincode: string;
   city: string;
   state: string;
 }
